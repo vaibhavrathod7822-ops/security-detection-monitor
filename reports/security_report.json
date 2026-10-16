@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-16T12:00:32.760833+00:00",
+  "log_file": "logs/auth.log",
+  "total_log_lines": 5,
+  "alerts_count": 3,
+  "alerts": [
+    {
+      "type": "successful_login",
+      "severity": "INFO",
+      "username": "analyst",
+      "source_ip": "192.168.1.20",
+      "message": "Successful login for analyst from 192.168.1.20"
+    },
+    {
+      "type": "repeated_failed_logins",
+      "severity": "HIGH",
+      "source_ip": "192.168.1.50",
+      "attempts": 3,
+      "message": "3 failed login attempts from 192.168.1.50"
+    },
+    {
+      "type": "failed_login_activity",
+      "severity": "MEDIUM",
+      "source_ip": "10.0.0.25",
+      "attempts": 1,
+      "message": "1 failed login attempt(s) from 10.0.0.25"
+    }
+  ],
+  "note": "Detection uses supplied sample logs; this is not live monitoring."
+}
