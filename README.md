@@ -24,7 +24,7 @@ alerts, and saves a structured JSON security report.
 
 ## Project Structure
 
-```text
+text
 security-detection-monitor/
 ├── logs/
 │   └── auth.log
